@@ -1,0 +1,173 @@
+		body {
+			margin: 0;
+			padding: 0;
+			color: #999;
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size: 12px;
+			line-height: 1.4em; 
+			background-color: #2e2e2e;
+			background-repeat: repeat;
+			background-image: url(../images/templatemo_body.jpg)
+		}
+		*{margin: 0; padding: 0; font-family: arial;}
+		.header{ width: 70%; margin-left: 15%; background: #000000; overflow: hidden;}
+		.logo{float: left; margin-left: 5%; padding: 15px;}
+		.logo h1{font-size: 30px; color: #fff; text-transform: uppercase; }
+		a{text-decoration: none;}
+		nav{width: auto; margin-right: 5%;}
+		nav li{list-style: none;}
+		nav li{display: inline;}
+		nav ul li a{display: inline-block; padding: 25px 13px; float: right; color: #fff; transition: 0.3s}
+		nav ul li a:hover{background: #696969; color: #black}
+		.span{margin: 10px 0 10px 0; padding: 10px; background: #4689db; color: #fff; display: inherit;}
+		.wrapper-content{width: 70%; margin-left: 15%; background: #f0f0f0; overflow: hidden; margin-top: 30px;}
+		.wrap-content{width: 400px; float: center; margin-left: 10%; margin-top: 30px; margin-bottom: 100px;}
+		.content img{width:150px; height: 150px;}
+		.trans img{width:80px;}
+		.content h2{color: #4689db; font-size: 25px;}
+		.content b{font-size: 10px; margin-right: 10px; background: red; color: #fff; border-radius: 2px; padding: 5px;}
+		.content p{color: #444; font-size: 15px; margin-top: 10px;}
+		input[type="submit"]{margin: 10px 0 10px 0; padding: 10px; height: 28px; text-align: center; background: #35A9DB; outline: 0; border: 0; color: #000000;}
+		.table {
+			font-family: sans-serif;
+			color: #444;
+			border-collapse: collapse;
+			width: 50%;
+			border: 1px solid #f2f5f7;
+		}
+		 
+		.table tr th{
+			background: #000000;
+			color: #fff;
+			font-weight: normal;
+		}
+
+		.table, th, td {
+			padding: 2px 10px;
+			text-align: left;
+		}
+		.table .beli {
+			display: inline-block;
+			width: 80px;
+			height: 28px;
+			line-height: 28px;	
+			text-align: center;
+			color: black;
+			background-color: #35A9DB;
+		}
+		.table tr:hover {
+			background-color: #f5f5f5;
+		}
+		.nopage {
+			display: inline-block;
+			width: 20px;
+			height: 25px;
+			line-height: 28px;	
+			text-align: center;
+			color: black;
+			background: url(../img/detail.jpg)
+		}
+		.page {
+			display: inline-block;
+			width: 70px;
+			height: 25px;
+			line-height: 28px;	
+			text-align: center;
+			color: black;
+			background: url(../img/detail.jpg)
+		}
+		.sub {
+			display: inline-block;
+			width: 50px;
+			height: 28px;
+			line-height: 28px;	
+			text-align: center;
+			color: black;
+			background-color: #35A9DB;
+		}
+		.subpass {
+			display: inline-block;
+			width: 100px;
+			height: 28px;
+			line-height: 28px;	
+			text-align: center;
+			color: black;
+			background-color: #35A9DB;
+		}
+		#contact_form { 
+			padding: 0; 
+			width: 312px; 
+			margin-bottom: 80px; 
+		}
+
+		#contact_form form { 
+			margin: 0px; 
+			padding: 0px; 
+		}
+
+		#contact_form form .input_field { 
+			width: 300px; 
+			padding: 5px; 
+			color: #222;  
+			background: #fff; 
+			border: 1px solid #dedede;  
+			font-size: 12px;
+			font-family: Tahoma, Geneva, sans-serif;
+			margin-top: 5px; 
+		}
+		#contact_form form .stok { 
+			width: 60px; 
+			padding: 5px; 
+			color: #222;  
+			background: #fff; 
+			border: 1px solid #dedede;  
+			font-size: 12px;
+			font-family: Tahoma, Geneva, sans-serif;
+			margin-top: 5px; 
+		}
+		#contact_form form .bln { 
+			width: 100px; 
+			padding: 5px; 
+			color: #222;  
+			background: #fff; 
+			border: 1px solid #dedede;  
+			font-size: 12px;
+			font-family: Tahoma, Geneva, sans-serif;
+			margin-top: 5px; 
+		}
+		#contact_form form label { 
+			display: block; 
+			width: 100px; 
+			margin-right: 12px; 
+			font-size: 13px; 
+		}
+
+		#contact_form form textarea { 
+			width: 300px; 
+			height: 200px; 
+			padding: 5px; 
+			color: #222; 
+			background: #fff; border: 1px solid #dedede;  
+			font-size: 12px;
+			font-family: Tahoma, Geneva, sans-serif;
+			margin-top: 5px; 
+		}
+
+		#contact_form form .submit_btn { 
+			float: left;
+			display: block;
+			width: 80px;
+			height: 28px;
+			line-height: 28px;
+			text-align: center;
+			color: black;	
+			background: url(../images/detail.jpg)
+		}
+		.wrap-sidebar{float: right; margin-right: 5%; width: 300px; margin-top: 25px;}
+		.sidebar-content{border: 1px solid#eee; padding: 10px;}
+		.sidebar-content h2{font-size: 20px; color: #000000; padding: 2px;}
+		.sidebar-content img{width: 250px; height: 100px;}
+		.fotter{width: 70%; margin-left: 15%; background: #000000; }
+		.fotter-content{ height: 60px; padding-top: 30px;  margin-bottom: 100px;}
+		.fotter-content h3{font-size: 14px; color: #fff; float: left; margin-left: 5%;}
+		.fotter-content h4{float: right; margin-right: 5%; color: #fff; font-size: 12px; }
