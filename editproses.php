@@ -5,23 +5,16 @@
 	$jur = $_POST['jur'];
 	$dataValid = "YA";
 	if (strlen(trim($nama))==0) {
-		echo "Nama Barang Harus Diisi! <br/>";
+		echo "Nama Harus Diisi! <br/>";
 		$dataValid = "TIDAK";
 	}
-	if (strlen(trim($jk))==0) {
-		echo "Jenis Kelamin Harus Diisi! <br/>";
+	if (strlen(trim($nim))==0) {
+		echo "NIM Harus Diisi! <br/>";
 		$dataValid = "TIDAK";
 	}
-	if (strlen(trim($alamat))==0) {
-		echo "Alamat Harus Diisi! <br/>";
-		$dataValid = "TIDAK";
-	}
-	if (strlen(trim($no_telp))==0) {
-		echo "No telepon Barang Harus Diisi! <br/>";
-		$dataValid = "TIDAK";
-	}
-	if (strlen(trim($email))==0) {
-		echo "E-mail Barang Harus Diisi! <br/>";
+
+	if (strlen(trim($jur))==0) {
+		echo "Jurusan Harus Diisi! <br/>";
 		$dataValid = "TIDAK";
 	}
 	if ($dataValid == "TIDAK") {
@@ -34,7 +27,7 @@
 	if($size == 0){
 			$foto = $foto_lama;
 		}
-	$sql = "update user set nama_user= '$nama', nim= '$nim', jur= '$jur'
+	$sql = "update mhs set nama= '$nama', nim= '$nim', jur= '$jur'
 	where id = '".$_SESSION['id']."' ";
 	$hasil = mysqli_query($db, $sql);
 	
