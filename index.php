@@ -4,7 +4,7 @@ include_once ('bagianatas.php') ; ?>
 		<div class="wrap-content">
 			<div class="content">
 			<table border="1">
-			<form method="post">
+			<form method="post" action="simpan.php">
 			<tr><td><label for="author">Nama : </label></td>
 			<td><input type="text" id="author" name="nama" class="required input_field" /><br/><br/></td></tr>
 			<tr><td><label for="author">NIM : </label></td>
